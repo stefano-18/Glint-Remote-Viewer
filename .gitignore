@@ -1,0 +1,22 @@
+# Entornos y cachés
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Compilación y binarios (libmpv se descarga y verifica con build.ps1)
+build/
+dist/
+vendor/
+*.zip
+*.7z
+
+# Referencias locales y datos privados
+upstream/
+.claude/
+.env
+*.log
+bench*.json
+glintremote-registro-*.txt
+settings.json

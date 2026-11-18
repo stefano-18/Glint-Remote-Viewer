@@ -1,0 +1,20 @@
+Glint Remote Viewer is licensed under GPL-3.0-or-later (see ../LICENSE).
+The Windows release bundles the following third-party components, each under its own licence:
+
+- libmpv 2 (mpv v0.42, Windows build by shinchiro/mpv-winbuild-cmake, 20261111)
+  GPL-2.0-or-later (this build includes GPL components). Source: https://github.com/mpv-player/mpv
+  Build recipe: https://github.com/shinchiro/mpv-winbuild-cmake
+- FFmpeg (statically linked inside libmpv)  GPL (per that build). Source: https://ffmpeg.org/download.html
+- Qt 6.12 / PySide6 6.12                     LGPL-3.0. Dynamically linked: the Qt DLLs in the release folder can be
+                                             replaced by the user. Source: https://download.qt.io/official_releases/
+- Streamlink 8.6.3                           BSD-2-Clause (streamlink-LICENSE). https://github.com/streamlink/streamlink
+- python-mpv 1.0.8                           GPL-2.0-or-later / LGPL-2.1-or-later (python_mpv-LICENSE.*).
+                                             https://github.com/jaseg/python-mpv
+- requests 2.34                              Apache-2.0 (requests-LICENSE)
+- CPython 3.13                               PSF License Agreement
+- Other pure-Python dependencies pulled in by Streamlink (urllib3, certifi, pycryptodome, lxml, isodate,
+  pycountry, websocket-client, trio, etc.) are distributed under their respective permissive licences, included in
+  each package's metadata inside the release.
+
+The full GPL-3.0 text is in GPL-3.0.txt. The complete corresponding source code of Glint Remote Viewer is the
+public Git repository this release was built from; build.ps1 reproduces the release.

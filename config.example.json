@@ -1,0 +1,14 @@
+{
+  "last_source": "nombre_del_canal",
+  "history": ["nombre_del_canal"],
+  "profile": "balanced",
+  "quality": "best",
+  "volume": 80,
+  "muted": false,
+  "audio_device": "auto",
+  "hwdec": "d3d11va",
+  "auto_reconnect": true,
+  "catchup_enabled": true,
+  "show_stats": true,
+  "allow_local_test": false
+}
