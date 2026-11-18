@@ -1,18 +1,18 @@
-# Entornos y cachés
+# Environments and caches
 .venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 
-# Compilación y binarios (libmpv se descarga y verifica con build.ps1)
+# Builds and binaries (libmpv is downloaded and verified by build.ps1)
 build/
 dist/
 vendor/
 *.zip
 *.7z
 
-# Referencias locales y datos privados
+# Local references and private data
 upstream/
 .claude/
 .env
